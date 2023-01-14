@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+h2{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.form-container{
+    display: flex;
+    justify-content:space-around;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.form_content{
+    width: 25vw;
+    height: 5vh;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#error{
+    color: red;
+    margin-left: 2rem;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+#success{
+    color: green;
+    margin-left: 2rem;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#employeeTable{
+    margin-left: 3rem;
+}
+
+#user_btn{
+    margin-left: 3rem;
+    padding: 10px 30px;
+    font-size: 1em;
+}
+
+#added_employees{
+    margin-left: 3rem;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#number_employees{
+    margin-left: 3rem;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+table, tbody{
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
